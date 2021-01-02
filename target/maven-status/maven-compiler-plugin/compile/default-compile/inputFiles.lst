@@ -1,0 +1,10 @@
+/home/jacielpc/Vídeos/spring-boot-redis/src/main/java/com/example/springbootrediscache/models/User.java
+/home/jacielpc/Vídeos/spring-boot-redis/src/main/java/com/example/springbootrediscache/repository/UserRepository.java
+/home/jacielpc/Vídeos/spring-boot-redis/src/main/java/com/example/springbootrediscache/repository/UserRepositoryImpl.java
+/home/jacielpc/Vídeos/spring-boot-redis/src/main/java/com/example/springbootrediscache/config/SwaggerConfig.java
+/home/jacielpc/Vídeos/spring-boot-redis/src/main/java/com/example/springbootrediscache/controllers/PersonController.java
+/home/jacielpc/Vídeos/spring-boot-redis/src/main/java/com/example/springbootrediscache/repository/PersonRepositoryImpl.java
+/home/jacielpc/Vídeos/spring-boot-redis/src/main/java/com/example/springbootrediscache/controllers/UserController.java
+/home/jacielpc/Vídeos/spring-boot-redis/src/main/java/com/example/springbootrediscache/SpringBootRedisCacheApplication.java
+/home/jacielpc/Vídeos/spring-boot-redis/src/main/java/com/example/springbootrediscache/models/Person.java
+/home/jacielpc/Vídeos/spring-boot-redis/src/main/java/com/example/springbootrediscache/repository/PersonRepository.java
