@@ -8,16 +8,16 @@ LABEL maintainer="basiliohj@live.com.mx"
 VOLUME /tmp
 
 # Make port 8080 available to the world outside this container
-EXPOSE 5044
+EXPOSE 5045
 
 # The application's jar file
-ARG JAR_FILE=target/SpringBootJwtAuthentication-0.0.1.jar
+ARG JAR_FILE=target/spring-boot-redis-cache-0.0.1-SNAPSHOT.jar
 
 # Add the application's jar to the container
-ADD ${JAR_FILE} ng5-api.jar
+ADD ${JAR_FILE} spring-boot-redis-cache-0.0.1-SNAPSHOT.jar
 
 # Run the jar file 
-ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/ng5-api.jar"]
+ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/spring-boot-redis-cache-0.0.1-SNAPSHOT.jar"]
 
 # docker build
 # sudo docker build -t <dockerhub-user>/ng5-api .
