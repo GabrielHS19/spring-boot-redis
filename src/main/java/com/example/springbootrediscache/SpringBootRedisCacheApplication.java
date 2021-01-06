@@ -18,7 +18,7 @@ public class SpringBootRedisCacheApplication {
 	@Bean
 	JedisConnectionFactory jedisConnectionFactory() {
 		RedisStandaloneConfiguration redisStandaloneConfiguration = 
-			new RedisStandaloneConfiguration("localhost", 6379);
+			new RedisStandaloneConfiguration("104.154.247.177", 6379);
 		return new JedisConnectionFactory(redisStandaloneConfiguration);
 	}
 
