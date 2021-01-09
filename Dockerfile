@@ -2,13 +2,13 @@
 FROM openjdk:8-jdk-alpine
 
 # Add Maintainer Info
-LABEL maintainer="basiliohj@live.com.mx"
+LABEL maintainer="basiliohj@gmail.com"
 
 # Add a volume pointing to /tmp
 VOLUME /tmp
 
 # Make port 8080 available to the world outside this container
-EXPOSE 5059
+EXPOSE 5045
 
 # The application's jar file
 ARG JAR_FILE=target/spring-boot-redis-cache-0.0.1-SNAPSHOT.jar
